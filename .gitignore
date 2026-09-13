@@ -1,43 +1,25 @@
-# Python
+# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
+.pytest_cache/
 
-# Virtual environment
+# Virtual environments
 venv/
 .venv/
 env/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# IDE
+# IDE files
 .vscode/
 .idea/
 
-# Python cache
-.pytest_cache/
+# Jupyter
+.ipynb_checkpoints/
 
-# Dataset
-data/raw/
-data/processed/
-
-# Trained models
-models/*.keras
-models/*.h5
-models/*.pt
-
-# Generated results
-results/
-
-# Secrets
+# Environment / secrets
 .env
 *.env
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
-
-# YOLO models
-app/*.pt
-src/*.pt
